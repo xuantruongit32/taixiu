@@ -42,7 +42,7 @@ if (gold<=0){
 	if (tien_cuoc>gold)
 		printf("Tien cuoc lon hon tien nap vui long thu lai \n");
 
-	else if (tien_cuoc<=0){
+	else if (tien_cuoc<0){
 	 sleep(3);
 		printf("Ban dua toi a, moi ban thu lai \n");}
 	else
